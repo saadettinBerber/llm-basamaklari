@@ -9,3 +9,10 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# preview.py çıktısı — tek slayt önizlemesi, üretilmiş dosya
+_preview.html
+
+# Python önbelleği
+__pycache__/
+*.pyc
