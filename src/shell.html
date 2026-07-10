@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bir LLM Nasıl İnşa Edilir?</title>
+<title>Yapay Zeka Nasıl Bu Hâle Geldi?</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
@@ -198,7 +198,7 @@
 <body>
   <div class="deck" id="deck">
     <div class="top">
-      <div class="brand">Bir LLM Nasıl İnşa Edilir? <b>· 5 basamak</b></div>
+      <div class="brand">Yapay Zeka Nasıl Bu Hâle Geldi? <b>· 5 evre</b></div>
       <div class="counter"><em id="cur">1</em> / <span id="tot">7</span></div>
     </div>
     <div class="main">
@@ -257,9 +257,9 @@ function animateEnter(){
 }
 function build(s){
   if(s.type==="intro")return `<div class="intro-grid"><div class="intro-text">
-     <div class="eyebrow">YAPAY ZEKA · BİR GİRİŞ</div>
-     <h1 class="title-big">Bir LLM Nasıl İnşa Edilir?</h1>
-     <p class="lede"><b>“Yapay zeka” = büyük dil modeli.</b><br>Sıfırdan nasıl bu hâle gelir?</p>
+     <div class="eyebrow">YAPAY ZEKA · EVRİMİ</div>
+     <h1 class="title-big">Yapay Zeka Nasıl Bu Hâle Geldi?</h1>
+     <p class="lede"><b>Kelime tahmininden iş yapan ajana.</b><br>Yapay zeka, beş evrede bugünkü hâline geldi.</p>
      <div class="hint">İlerlemek için <kbd>→</kbd> ya da “Sonraki”</div></div>
      <div class="viz intro-viz">${SVG_INTRO}</div></div>`;
   if(s.type==="recap")return `<div class="cap" style="color:var(--hue)">ÖZET</div><h2 class="q">${s.q}</h2>
